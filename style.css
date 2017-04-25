@@ -1,8 +1,6 @@
 @charset "UTF-8";
 .menu {
     display: block;
-    text-align: center;
-    vertical-align: middle;
     width: 100%;
     background-color: white;
     opacity: .9;
@@ -55,5 +53,9 @@
 }
 
  .frontpage img {
+   width: 100%;
+ }
+
+ #aboutme1 img {
    width: 100%;
  }
