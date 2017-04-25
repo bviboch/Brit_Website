@@ -6,24 +6,32 @@
     width: 100%;
     background-color: white;
     opacity: .9;
-    height: 100px;
+    height: 85px;
     z-index: 9999;
-    box-shadow: 3px 3px 10px #66C8CD;
+    box-shadow: 3px 3px 10px black;
     box-sizing: border-box;
   }
 
 .menu h1 {
   float: left;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
+.menu nav {
+  margin: auto;
+  width: 600px;
+}
 .menu ul {
   list-style-type: none;
 }
 
 .menu li {
   margin-right: 10px;
+  display: inline-block;
+  float: right;
+  padding: 8px;
 }
+
  .frontpage img {
    width: 100%;
  }
