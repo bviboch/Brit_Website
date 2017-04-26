@@ -8,12 +8,13 @@
     z-index: 9999;
     box-shadow: 3px 3px 10px black;
     box-sizing: border-box;
+    position: fixed;
   }
 
 .menu h1 {
   float: left;
   margin-left: 20px;
-  font-family: "Bodoni 72", Book, serif;
+  font-family: "Bodoni 72 Oldstyle", Book, serif;
   font-size: 32px;
 }
 
@@ -22,7 +23,7 @@
   width: 600px;
 }
 
-.menu ul {
+.menu ol {
   list-style-type: none;
 }
 
