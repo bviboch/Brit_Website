@@ -48,6 +48,7 @@
 .menu a:visited {
   text-decoration: none;
 }
+
 .menu a:hover {
   color: black;
 }
@@ -58,4 +59,8 @@
 
  .aboutme img {
    width: 100%;
+ }
+
+ .aboutme h1 {
+   clear: both;
  }
