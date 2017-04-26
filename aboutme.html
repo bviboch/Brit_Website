@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Brittney's Site</title>
   </head>
   <body>
@@ -18,9 +19,40 @@
           </ol>
         </nav>
     </div>
+
     <div class="aboutme">
       <img src="images/britfields.jpg" alt="flower fields">
       <h1>get to know me ...</h1>
+      <hr>
+      <hr>
+      <p>"Life's too short, so cherish the relationships you make, challenge yourself to new adventures, be your best self and a leader to all, and success will follow."</p>
+      <hr>
+      <hr>
+    </div>
+
+    <div class="myslides">
+      <img class="mySlides w3-animate-fading" src="images/bishops.jpg" alt="bishops' peak">
+      <img class="mySlides w3-animate-fading" src="images/mountainview.jpg" alt="vancouver">
+      <img class="mySlides w3-animate-fading" src="images/polycanyon.jpg" alt="Poly Canyon">
+      <img class="mySlides w3-animate-fading" src="images/hikingca.jpg" alt="whistler,bc">
+      <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 9000);
+      }
+      </script>
+    </div>
+
     </div>
   </body>
 </html>
