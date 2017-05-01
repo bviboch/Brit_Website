@@ -20,7 +20,10 @@
 
 .menu nav {
   margin: auto;
-  width: 600px;
+  width: 700px;
+  text-align: center;
+  overflow: hidden;
+  margin-top: -15px;
 }
 
 .menu ol {
