@@ -14,8 +14,11 @@
 .menu h1 {
   float: left;
   margin-left: 20px;
+  margin-top: 17px;
+  margin-bottom: 0px;
   font-family: "Bodoni 72 Oldstyle", Book, serif;
   font-size: 32px;
+  color: #66C8CD;
 }
 
 .menu nav {
@@ -54,7 +57,7 @@
 }
 
 .menu a:hover {
-  color: black;
+  color: #66C8CD;
 }
 
  .frontpage img {
